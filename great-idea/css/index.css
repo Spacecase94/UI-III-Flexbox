@@ -98,33 +98,84 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	display: flex;
 
+	display: flex;
 	border: 5px solid darkmagenta;
 }
 
-nav {
+ nav {
+	width: 89%;
+	display: flex;
 
-	padding: 2%;
 }
 nav, a {
-	padding: 2%;
+padding:2%;
 	text-decoration: none;
-	align-items: center;
-	justify-content: space-between;
+	align-items: center ;
+	justify-content: space-around;
+	color: grey;
 }
-img.logo {
-	justify-content: left;
+.logo {
+
+	justify-content: flex-end;
 }
 .cta {
+	width: 100%;
 	border: 5px solid dodgerblue;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.cta-text {
+	display: flex;
+}
+.cta-text h1 {
+	font-size: 12vh;
+	justify-content: space-around;
+	margin-left: 4%;
+}
+
+.cta-text button {
+	flex-direction: column;
+}
+.cta-img {
+
+	justify-content: flex-end;
 }
 .main-content {
 	border: 5px solid crimson;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.top-content {
+	display: flex;
+
+}
+.bottom-content {
+	display: flex;
+}
+.text-content {
+	flex-direction: column;
+	padding: 3%;
+}
+.middle-img {
+	width: 100%;
+	margin: 0 2%;
 }
 .contact {
 	border: 5px solid darkgreen;
 }
+
+.contact p{
+	margin-top: 2%;
+}
+
 footer {
 	border: 5px solid deeppink;
+	display: flex;
+}
+
+footer, p {
+	justify-content: center;
 }
