@@ -65,42 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* Nav bar*/
-/*nav  {*/
-/*	position: fixed;*/
-/*	top: 0;*/
-/*	width: 100%;*/
-/*}*/
-
-/*.nav-container {*/
-/*	display: flex;*/
-/*	background-color: #87f1ff;*/
-/*	padding: 20px;*/
-/*	justify-content: space-between;*/
-/*}*/
-/*.nav-container a {*/
-/*	text-decoration: none;*/
-/*	color: slategray;*/
-/*}*/
-/*.nav-link {*/
-/*	padding: 20px;*/
-/*}*/
-
-/*.logo {*/
-
-/*}*/
-
 /*heading section*/
 .container {
 	display: flex;
 	flex-direction: column;
-	border: 15px solid black;
 }
 
 header {
 
 	display: flex;
-	border: 5px solid darkmagenta;
+
 }
 
  nav {
@@ -116,34 +90,39 @@ padding:2%;
 	color: grey;
 }
 .logo {
-
+	width: 20%;
+	height: 20%;
+	margin-top: 2%;
 	justify-content: flex-end;
 }
 .cta {
 	width: 100%;
-	border: 5px solid dodgerblue;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
 .cta-text {
-	display: flex;
+	display: inline-block;
 }
+
 .cta-text h1 {
 	font-size: 12vh;
-	justify-content: space-around;
 	margin-left: 4%;
 }
-
+.cta br {
+	margin: 0 -4%;
+}
 .cta-text button {
-	flex-direction: column;
+	margin-left: 15%;
+	background: white;
+	padding: 2% 12%;
+	font-size: 120%;
+	border: 2px solid black;
 }
 .cta-img {
-
 	justify-content: flex-end;
 }
 .main-content {
-	border: 5px solid crimson;
 	display: flex;
 	flex-wrap: wrap;
 
@@ -164,7 +143,7 @@ padding:2%;
 	margin: 0 2%;
 }
 .contact {
-	border: 5px solid darkgreen;
+margin-left: 3%;
 }
 
 .contact p{
@@ -172,10 +151,16 @@ padding:2%;
 }
 
 footer {
-	border: 5px solid deeppink;
 	display: flex;
+	margin: 0% 0% 12% 0%;
 }
 
 footer, p {
 	justify-content: center;
+
+}
+
+hr {
+	border: 2px solid black;
+	margin: 0 2%;
 }

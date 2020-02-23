@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .container {
   display: flex;
   flex-direction: column;
-  border: 15px solid black;
+
 }
 
 header {
@@ -76,16 +76,16 @@ header {
 }
 
 nav {
-  width: 80%;
+  width: 90%;
   display: flex;
-    margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 nav, a {
   padding: 2%;
   text-decoration: none;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: grey;
 
 }
@@ -104,30 +104,87 @@ nav, a {
 
 .cta {
   display: inline-block;
-
+}
+.cta p{
+  width: 94%;
+  margin: 0 3%;
+}
+.cta h1 {
+  width: 94%;
+  margin: 2% 3%
 }
 .services-header-img {
-  width: 80%;
-  margin-left: 10%;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 13%;
 }
 
 .row1 {
   display: flex;
 }
 .column1 {
-
+  background: lightgray;
   flex: 50%;
+
+}
+.footer-list {
+  text-decoration:bullets;
 }
 button {
   display: flex;
   align-items: center;
+  border-radius: 10%;
+  padding:2% 6%;
+  margin-top: 5%;
+  font-size: 90%;
+  background: white;
+  border: 2px solid black;
 }
+
 .column2 {
   flex: 50%;
+  background: lightgray;
 }
 
 .digital-design, .UX-UI, .digital-marketing, .web-development, .iOS-Development, .Android-Development {
   margin: 3%;
   border: 1px solid;
   padding:2%;
+}
+
+.services-info-img {
+  width: 97%;
+  background: white;
+  padding-left: 3%;
+}
+hr {
+  margin:  3%;
+}
+.col{
+  background: white;
+}
+.facts {
+  background: white;
+}
+.facts h2{
+  margin: 5%;
+}
+
+.facts p{
+  margin: 5%;
+}
+
+.facts ul {
+  margin: 5%;
+  list-style-type: disc;
+
+}
+.footer-list li {
+  margin: 4%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8%;
 }
